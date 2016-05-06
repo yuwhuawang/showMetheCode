@@ -9,4 +9,6 @@
 2 文件IO
 
 过程：
-1 搜索图像处理库PIL
+1 搜索图像处理库PIL，找到PIL文档 http://effbot.org/imagingbook/
+2 PIL的ImageDraw模块提供了drawtext方法。并提供Draw构造方法创建画布，画布可以是给定的图像。可以解决题目。
+
