@@ -15,14 +15,26 @@ def keyToMySQL():
     )
 
     #建表
-    sqlText = """CREATE TABLE key (id INT(8) NOT NULL , key TEXT NOT NULL , time TIMESTAMP NOT NULL , PRIMARY KEY (id));"""
-    sqlText2 = """CREATE TABLE IF NOT EXISTS `test`.`key` ( `id` INT(8) NOT NULL , `key` TEXT NULL , `time` TIMESTAMP NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;"""
 
-    #mysql.execute(sqlText2)
+    sqlText = """CREATE TABLE IF NOT EXISTS `test`.`key` ( `id` INT(8) NOT NULL , `key` TEXT NULL , `time` TIMESTAMP NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;"""
+    mysql.execute(sqlText)
 
-    sqlText3 = """ INSERT INTO `key`(`id`, `key`, `time`) VALUES (%s,%s,%s)"""
-    args = (1,keygen.keygen(20),time.time())
-    mysql.execute(sqlText3,args,mode=MySQLConn.DICTCURSOR_MODE,many=False)
-    mysql.conn.commit()
 
-keyToMySQL()
+
+    #生成待插入数据
+    args = []
+    for i in range(1,201):
+        new_list = (i,keygen.keygen(20))
+        print time.time()
+        args.append(new_list)
+
+    #执行插入
+    sqlText3 = """ INSERT INTO `key`(`id`, `key`) VALUES (%s,%s)"""
+    try:
+        mysql.execute(sqlText3, args, mode=MySQLConn.DICTCURSOR_MODE, many=True)
+        mysql.conn.commit()
+    except Exception,e:
+        print e
+if __name__ == "__main__":
+
+    keyToMySQL();

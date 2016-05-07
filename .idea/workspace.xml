@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f0d8c4-a6a5-46c9-bcaa-e4d52ca08a18" name="Default" comment="" />
+    <list default="true" id="e4f0d8c4-a6a5-46c9-bcaa-e4d52ca08a18" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Q0002/toMySQL.py" afterPath="$PROJECT_DIR$/Q0002/toMySQL.py" />
+    </list>
     <ignored path="showmethecode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -14,7 +16,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/showmethecode$toMySQL.coverage" NAME="toMySQL Coverage Results" MODIFIED="1462628251958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q0002" />
+    <SUITE FILE_PATH="coverage/showmethecode$toMySQL.coverage" NAME="toMySQL Coverage Results" MODIFIED="1462629004008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q0002" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -54,18 +56,13 @@
       <file leaf-file-name="toMySQL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Q0002/toMySQL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="337">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="e#14#27#0" expanded="true" />
-                <marker date="1462628250435" expanded="true" signature="311:347" placeholder="CREATE TABLE... key" />
-                <marker date="1462628250435" expanded="true" signature="311:368" placeholder="CREATE TABLE... key" />
-                <marker date="1462628250435" expanded="true" signature="311:394" placeholder="CREATE TABLE... key" />
-                <marker date="1462628250435" expanded="true" signature="311:412" placeholder="CREATE TABLE... key" />
-                <marker date="1462628250435" expanded="true" signature="311:413" placeholder="CREATE TABLE... key" />
-                <marker date="1462628250435" expanded="true" signature="311:854" placeholder="CREATE TABLE... key" />
-                <marker date="1462628250435" expanded="true" signature="436:582" placeholder="CREATE TABLE... IF" />
-                <marker date="1462628250435" expanded="true" signature="637:693" placeholder="INSERT INTO `key`... " />
+                <marker date="1462629001148" expanded="true" signature="294:925" placeholder="CREATE TABLE... key" />
+                <marker date="1462629001148" expanded="true" signature="312:458" placeholder="CREATE TABLE... IF" />
+                <marker date="1462629001148" expanded="true" signature="674:719" placeholder="INSERT INTO `key`... " />
               </folding>
             </state>
           </provider>
@@ -74,8 +71,8 @@
       <file leaf-file-name="MySQLConn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Q0002/MySQLConn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="16" />
               <folding>
                 <element signature="e#14#27#0" expanded="true" />
               </folding>
@@ -126,10 +123,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="105" />
-    <option name="width" value="1425" />
-    <option name="height" value="814" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -474,16 +471,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="105" width="1425" height="814" extended-state="1" />
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29808375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3602837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27400216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -583,8 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Q0002/MySQLConn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="16" />
           <folding>
             <element signature="e#14#27#0" expanded="true" />
           </folding>
@@ -593,18 +590,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Q0002/toMySQL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="337">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="e#14#27#0" expanded="true" />
-            <marker date="1462628250435" expanded="true" signature="311:347" placeholder="CREATE TABLE... key" />
-            <marker date="1462628250435" expanded="true" signature="311:368" placeholder="CREATE TABLE... key" />
-            <marker date="1462628250435" expanded="true" signature="311:394" placeholder="CREATE TABLE... key" />
-            <marker date="1462628250435" expanded="true" signature="311:412" placeholder="CREATE TABLE... key" />
-            <marker date="1462628250435" expanded="true" signature="311:413" placeholder="CREATE TABLE... key" />
-            <marker date="1462628250435" expanded="true" signature="311:854" placeholder="CREATE TABLE... key" />
-            <marker date="1462628250435" expanded="true" signature="436:582" placeholder="CREATE TABLE... IF" />
-            <marker date="1462628250435" expanded="true" signature="637:693" placeholder="INSERT INTO `key`... " />
+            <marker date="1462629001148" expanded="true" signature="294:925" placeholder="CREATE TABLE... key" />
+            <marker date="1462629001148" expanded="true" signature="312:458" placeholder="CREATE TABLE... IF" />
+            <marker date="1462629001148" expanded="true" signature="674:719" placeholder="INSERT INTO `key`... " />
           </folding>
         </state>
       </provider>
